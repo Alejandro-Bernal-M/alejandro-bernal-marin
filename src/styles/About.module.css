@@ -1,0 +1,39 @@
+.mainTitle {
+  color: #fff;
+  text-align: center;
+}
+
+.photoAndDescription {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.image {
+  width: 70%;
+  max-width: 250px;
+  max-height: 250px;
+  margin: 0 auto;
+}
+
+.myImage {
+  height: 100%;
+  width: 100%;
+  border-radius: 15px 50px ;
+}
+
+.myDescription {
+  color: #fff;
+  width: 80%;
+  max-width: 500px;
+  margin: 10% auto;
+  text-align: justify;
+}
+
+.phrase {
+  width: 80%;
+  margin: 0 auto;
+  color: #fff;
+  text-align: center;
+}

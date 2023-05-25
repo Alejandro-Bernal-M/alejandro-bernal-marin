@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Suwannaphum:wght@700&display=swap');
+
+h1{
+  font-family: 'Suwannaphum', serif;
+}
+
+p,
+span{
+  font-family: 'Noto Sans', sans-serif;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  box-sizing: border-box;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  background: linear-gradient(#313131, #474747);
+}
+
