@@ -5,7 +5,8 @@ h1{
 }
 
 p,
-span{
+span,
+button{
   font-family: 'Noto Sans', sans-serif;
 }
 

@@ -2,15 +2,17 @@ import Image from 'next/image'
 import myPicture from '../resources/images/me.jpg'
 import styles from '../styles/About.module.css'
 
-async function phrase(){
-  const response = await fetch('https://api.themotivate365.com/stoic-quote');
-  const data = await response.json()
-  return data;
-}
+type aboutProps = {
+  phraseData:
+  { quote: string,
+    author: string
+  }
+  counter: number,
+  setCounter: (counter: number) => void
+ }
 
-async function About() {
-  const phraseData = await phrase();
- 
+function About({phraseData, counter, setCounter}: aboutProps) {
+    
   return(
     <div>
       <h1 className={styles.mainTitle}>Welcome to my portfolio</h1>
@@ -35,7 +37,15 @@ async function About() {
             &quot;{phraseData.quote}&quot;
             <br />
             -{phraseData.author}
+            {' '}
           </p> 
+            <button
+              className={styles.buttonPhrase}
+              onClick={() => {
+                setCounter(counter + 1)
+              }}>
+              Click to change the phrase
+            </button>
         </div>
     </div>
   )
