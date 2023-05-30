@@ -23,8 +23,9 @@ export default function Home() {
     <main>
       <h1 className='mainTitle'>Welcome to my portfolio</h1>
       <About phraseData={phraseData} counter={counter} setCounter={setCounter}/>
-      <hr></hr>
+      <hr />
       <ProjectsSection />
+      <hr />
     </main>
   )
 }
