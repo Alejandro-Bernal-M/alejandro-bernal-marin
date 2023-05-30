@@ -1,0 +1,104 @@
+.projectSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  margin: 2rem auto;
+}
+
+.projectSectionTitle {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #fff;
+  text-align: center;
+}
+
+.projectGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,   80vw);
+  grid-gap: 1rem;
+  margin: 1rem auto;
+}
+
+.projectCard {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  align-items: center;
+  height: auto;
+  gap: 10px;
+}
+
+.projectTitle {
+  font-size: 1.5rem;
+}
+
+.cardImage {
+  width: 80%;
+  height: 50%;
+}
+
+.cardInfo {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+
+.projectDescription {
+  text-align: justify;
+}
+
+.techStack {
+  margin: 15px 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.techStack > ul {
+  width: 110%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 5px;
+}
+
+.techStack > ul > li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  border-radius: 4px;
+  background-color: #313131;
+  color: #fff;
+  font-size: 15px;
+}
+
+.buttonContainer{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.button {
+  padding: 5px 10px;
+  border-radius: 4px;
+  border: none;
+  background-color: #313131;
+  cursor: pointer;
+}
+
+.button > a {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  gap: 2px;
+}

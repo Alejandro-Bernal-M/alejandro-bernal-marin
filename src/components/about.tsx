@@ -14,8 +14,7 @@ type aboutProps = {
 function About({phraseData, counter, setCounter}: aboutProps) {
     
   return(
-    <div>
-      <h1 className={styles.mainTitle}>Welcome to my portfolio</h1>
+    <section id='aboutSection'>
       <div className={styles.photoAndDescription}>
         <div className={styles.image}>
           <Image
@@ -47,7 +46,7 @@ function About({phraseData, counter, setCounter}: aboutProps) {
               Click to change the phrase
             </button>
         </div>
-    </div>
+    </section>
   )
 }
 

@@ -1,8 +1,3 @@
-.mainTitle {
-  color: #fff;
-  text-align: center;
-}
-
 .photoAndDescription {
   display: flex;
   flex-wrap: wrap;

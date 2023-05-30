@@ -6,7 +6,8 @@ h1{
 
 p,
 span,
-button{
+button,
+a {
   font-family: 'Noto Sans', sans-serif;
 }
 
@@ -24,5 +25,14 @@ body {
 
 body {
   background: linear-gradient(#313131, #474747);
+}
+
+.mainTitle {
+  color: #fff;
+  text-align: center;
+}
+
+#aboutSection {
+  margin: 30px 0;
 }
 
