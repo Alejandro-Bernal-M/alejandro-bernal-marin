@@ -28,7 +28,7 @@ const arrayOfProjects = [
     {
         id: 3,
         name: 'My currency',
-        description: "My currency it's a web application where you can check the comparison between a certain amount of USD and other currencies. You can also check every currency and see the comparison of that one with the others, you can also filter directly for a specific currency",
+        description: "My currency it's a web application where you can check the comparison between a certain amount of USD and other currencies. You can also check every currency and see the comparison of that one with the others, you can also filter directly for a specific currency.",
         tools: ['React', 'Redux', 'SPA'],
         image: myCurrency,
         gitLink: 'https://github.com/Alejandro-Bernal-M/my-currency',
@@ -64,7 +64,7 @@ const arrayOfProjects = [
     {
         id: 7,
         name: "School Library",
-        description: "school Library OOP is a project made with ruby where you have a tool to record what books are in the library and who borrows them. The app allow you to: Add new students or teachers. Add new books. Save records of who borrowed a given book and when. And all of this in a beautiful and well-organized way!",
+        description: "School Library OOP is a project made with ruby where you have a tool to record what books are in the library and who borrows them. The app allow you to: Add new students or teachers. Add new books. Save records of who borrowed a given book and when. And all of this in a beautiful and well-organized way!",
         tools: ['RUBY', 'OOP'],
         image: school,
         gitLink: 'https://github.com/Alejandro-Bernal-M/school_library',

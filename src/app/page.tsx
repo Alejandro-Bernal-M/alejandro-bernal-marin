@@ -2,6 +2,7 @@
 
 import About from "@/components/about"
 import ProjectsSection from "@/components/ProjectsSection";
+import Contact from "@/components/Contact";
 import { useEffect, useState } from 'react';
 
 export default function Home() {
@@ -26,6 +27,7 @@ export default function Home() {
       <hr />
       <ProjectsSection />
       <hr />
+      <Contact />
     </main>
   )
 }
