@@ -28,7 +28,7 @@ const arrayOfProjects = [
     {
         id: 3,
         name: 'My currency',
-        description: "My currency it's a web application where you can check the comparison between a certain amount of USD and other currencies. You can also check every currency and see the comparison of that one with the others, you can also filter directly for a specific currency",
+        description: "My currency it's a web application where you can check the comparison between a certain amount of USD and other currencies. You can also check every currency and see the comparison of that one with the others, you can also filter directly for a specific currency.",
         tools: ['React', 'Redux', 'SPA'],
         image: myCurrency,
         gitLink: 'https://github.com/Alejandro-Bernal-M/my-currency',
