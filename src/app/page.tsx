@@ -1,7 +1,9 @@
 'use client';
 
 import About from "@/components/about"
+import Tech from "@/components/Tech";
 import ProjectsSection from "@/components/ProjectsSection";
+import Contact from "@/components/Contact";
 import { useEffect, useState } from 'react';
 
 export default function Home() {
@@ -24,8 +26,11 @@ export default function Home() {
       <h1 className='mainTitle'>Welcome to my portfolio</h1>
       <About phraseData={phraseData} counter={counter} setCounter={setCounter}/>
       <hr />
+      <Tech />
+      <hr />
       <ProjectsSection />
       <hr />
+      <Contact />
     </main>
   )
 }

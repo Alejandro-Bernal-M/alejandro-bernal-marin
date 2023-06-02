@@ -1,3 +1,12 @@
+.aboutSection {
+  height: auto;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
 .photoAndDescription {
   display: flex;
   flex-wrap: wrap;
