@@ -31,6 +31,8 @@ body {
 .mainTitle {
   color: #fff;
   text-align: center;
+  max-width: 90%;
+  margin: 0 auto;
 }
 
 #aboutSection {

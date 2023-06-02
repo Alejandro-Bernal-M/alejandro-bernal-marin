@@ -1,4 +1,4 @@
-import exp from "constants";
+import styles from '../styles/Tech.module.css';
 
 type TechCardProps = {
   title: string;
@@ -7,13 +7,15 @@ type TechCardProps = {
 
 function TechCard({title, stack}: TechCardProps) {
   return (
-    <div className="tech-card">
-      <h3>{title}</h3>
-      {stack.map((tech) => {
-        return (
-          <p key={tech}>{tech}</p>
-        )
-      })}
+    <div className={styles.card}>
+      <h3 className={styles.cardTitle}>{title}</h3>
+      <div className={styles.stackContainer}>
+        {stack.map((tech) => {
+          return (
+            <p key={tech} className={styles.stackContent}>{tech}</p>
+          )
+        })}
+      </div>
     </div>
   )
 }
