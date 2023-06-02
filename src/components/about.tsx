@@ -14,7 +14,7 @@ type aboutProps = {
 function About({phraseData, counter, setCounter}: aboutProps) {
     
   return(
-    <section id='aboutSection'>
+    <section className={styles.aboutSection}>
       <div className={styles.photoAndDescription}>
         <div className={styles.image}>
           <Image
@@ -34,6 +34,7 @@ function About({phraseData, counter, setCounter}: aboutProps) {
         <div className={styles.phrase}>
           <p>
             &quot;{phraseData.quote}&quot;
+            {' '}
             <br />
             -{phraseData.author}
             {' '}

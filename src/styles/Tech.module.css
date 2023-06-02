@@ -1,0 +1,93 @@
+.techSection {
+  width: 100%;
+  height: auto;
+  min-height: 70vh;
+  margin: 30px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 30px;
+}
+
+.mainTitle {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  gap: 15px;
+}
+
+.card {
+  background-color: #fff;
+  flex: 1 300px;
+  max-width: 300px;
+  min-height: 300px;
+  height: auto;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 8px;
+}
+
+.cardTitle {
+  margin-top: 10px;
+}
+
+.stackContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  gap: 15px;
+}
+
+.stackContent {
+  background-color: #313131;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.btnResume {
+  width: 80%;
+  max-width: 220px;
+  height: 30px;
+  margin: 10px auto 20px auto;
+  text-align: center;
+  border-radius: 6px;
+  border: none;
+  box-shadow: 2px 2px black;
+  background-color: #fff;
+}
+
+.btnResume:active {
+  box-shadow: 1px 1px black;
+  transform: translate(1px, 1px);
+}
+
+.btnResume > button {
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  height: 100%;
+  border-radius: 6px;
+}
+
+.btnResume > button:hover {
+  background-color: #ccc;
+}
