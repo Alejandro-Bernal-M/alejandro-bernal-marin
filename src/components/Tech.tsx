@@ -13,7 +13,7 @@ function Tech() {
     }
     return (
       <section className={styles.techSection}>
-      <h2 className={styles.mainTitle}>Tech Stack</h2>
+      <h2 className={styles.mainTitle}>Tech Stack.</h2>
       <div className={styles.cardContainer}>
         {Object.keys(techObject).map((tech) => {
           return (
