@@ -24,7 +24,7 @@ body {
   overflow-x: hidden;
 }
 
-body {
+body, html {
   background: linear-gradient(#313131, #474747);
 }
 
