@@ -19,7 +19,6 @@ a {
 html,
 body {
   box-sizing: border-box;
-  height: 100%;
   width: 100%;
   overflow-x: hidden;
 }
@@ -39,8 +38,3 @@ main {
   max-width: 90%;
   margin: 0 auto;
 }
-
-#aboutSection {
-  margin: 30px 0;
-}
-
