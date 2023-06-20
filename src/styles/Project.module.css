@@ -14,13 +14,19 @@
 }
 
 .projectGrid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit,  minmax(280px, 1fr));
-  grid-gap: 30px;
-  margin: 30px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  gap: 15px;
 }
 
 .projectCard {
+  width: max(280px, 300px);
+  height: 500px;
   display: flex;
   flex-direction: column;
   padding: 1rem;
@@ -28,13 +34,14 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 6px;
   align-items: center;
-  height: auto;
+  justify-content: space-around;
   min-height: 400px;
-  gap: 10px;
+  gap: 20px;
 }
 
 .projectTitle {
   font-size: 1.5rem;
+  text-align: center;
 }
 
 .cardImage {
@@ -53,6 +60,7 @@
 }
 
 .projectDescription {
+  margin-top: 15px;
   text-align: justify;
 }
 

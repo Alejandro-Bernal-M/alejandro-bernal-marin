@@ -7,9 +7,9 @@ function Tech() {
     [key: string]: string[]; 
   } = {
       'Frameworks': ['React','Next js', 'Ruby on Rails'],
-      'Languages': ['TypeScript', 'JavaScript', 'Ruby', 'HTML', 'CSS'],
+      'Languages': ['TypeScript', 'JavaScript', 'Ruby'],
       'Databases': ['PostgreSQL'],
-      'Tools': ['Git', 'GitHub', 'VS code', 'Postman', 'Figma', 'Vercel','Jest', 'React Testing Library', 'Rspec']
+      'Tools': ['Git', 'GitHub', 'VS code', 'Postman', 'Figma', 'Vercel','Jest', 'React Testing Library', 'Rspec', 'Capybara']
     }
     return (
       <section className={styles.techSection}>

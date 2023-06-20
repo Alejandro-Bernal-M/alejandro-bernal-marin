@@ -1,9 +1,9 @@
 import spaceImage from './project_images/spacex.jpg';
-import todoImage from './project_images/to-do-list-mobile.jpg';
-import mathImage from './project_images/math.jpg';
+import portfolioKen from './project_images/ken.jpg';
 import myCurrency from './project_images/myCurrency.jpg';
+import mathImage from './project_images/math.jpg';
+import todoImage from './project_images/to-do-list-mobile.jpg';
 import yourCar from './project_images/yourCar.jpg';
-import conference from './project_images/conference.jpg';
 import school from './project_images/school.jpg';
 
 const arrayOfProjects = [
@@ -18,6 +18,15 @@ const arrayOfProjects = [
     },
     {
         id: 2,
+        name: "Portfolio for dancers",
+        description: "This is a portfolio made for a couple of Colombian dancers who live in Spain. The porfolio is made with Next js, it is responsive.",
+        tools: ['Next js', 'SPA'],
+        image: portfolioKen,
+        gitLink: 'https://github.com/Alejandro-Bernal-M/portafolio-ken-y-juli',
+        liveLink: 'https://portafolio-ken-y-juli.vercel.app/',
+    },
+    {
+        id: 3,
         name: "Math magicians",
         description: "A wep app, build as SPA with react router where you can use the calculator and see quotes from an API, made with React.",
         tools: ['React', 'SPA', 'CSS'],
@@ -26,7 +35,7 @@ const arrayOfProjects = [
         liveLink: 'https://math-magicians-havp.onrender.com/',
     },
     {
-        id: 3,
+        id: 4,
         name: 'My currency',
         description: "My currency it's a web application where you can check the comparison between a certain amount of USD and other currencies. You can also check every currency and see the comparison of that one with the others, you can also filter directly for a specific currency.",
         tools: ['React', 'Redux', 'SPA'],
@@ -35,7 +44,7 @@ const arrayOfProjects = [
         liveLink: 'https://my-currency.onrender.com/',
     },
     {
-        id: 4,
+        id: 5,
         name: "To Do's list",
         description: "To Do's list is a web page where you can add tasks that you need to do, edit the task, check the task when is done, clear all the tasks that are completed and drag the task to change the order. ",
         tools: ['HTML5', 'CSS', 'JavaScript'],
@@ -44,22 +53,13 @@ const arrayOfProjects = [
         liveLink: 'https://alejandro-bernal-m.github.io/To-do-list/',
     },
     {
-        id: 5,
+        id: 6,
         name: "Your new car",
         description: "It's a webpage Where you can interact giving likes and comments using an API and see the data retrieved from another API and see the information of the cars. Made with Webpack. ",
         tools: ['Webpack', 'CSS'],
         image: yourCar,
         gitLink: 'https://github.com/Alejandro-Bernal-M/API-based-project',
         liveLink: 'https://alejandro-bernal-m.github.io/API-based-project/',
-    },
-    {
-        id: 6,
-        name: "Conference page",
-        description: "It's a project where I did a conference page based on guidelines provides by microverse for the final project of the first module. I implemented the home and about pages with desktop and mobile version using HTML and CSS and with functionality using JavaScript.",
-        tools: ['HTML5', 'CSS', 'JavaScript'],
-        image: conference,
-        gitLink: 'https://github.com/Alejandro-Bernal-M/Conference-page',
-        liveLink: 'https://alejandro-bernal-m.github.io/Conference-page/',
     },
     {
         id: 7,

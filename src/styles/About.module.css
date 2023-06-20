@@ -52,9 +52,14 @@
   border: none;
   box-shadow: 2px 2px black;
   font-size: 16px;
+  cursor: pointer;
 }
 
 .buttonPhrase:active {
   box-shadow: 1px 1px black;
   transform: translate(1px, 1px);
+}
+
+.buttonPhrase:hover {
+  background-color: #ccc;
 }
