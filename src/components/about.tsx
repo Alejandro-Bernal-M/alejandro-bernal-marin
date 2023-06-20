@@ -16,13 +16,11 @@ function About({phraseData, counter, setCounter}: aboutProps) {
   return(
     <section className={styles.aboutSection}>
       <div className={styles.photoAndDescription}>
-        <div className={styles.image}>
-          <Image
-            className={styles.myImage}
-           alt='Photography of the author'
-            src={myPicture}
+        <Image
+          className={styles.myImage}
+          alt='Photography of the author'
+          src={myPicture}
           />
-        </div>
         <p className={styles.myDescription}>
           My name is
           <span> Alejandro Bernal Marín </span>

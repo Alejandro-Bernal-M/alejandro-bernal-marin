@@ -5,6 +5,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+  gap: 20%;
 }
 
 .photoAndDescription {
@@ -12,35 +13,34 @@
   flex-wrap: wrap;
   width: 90%;
   margin: 0 auto;
-}
-
-.image {
-  width: 70%;
-  max-width: 250px;
-  max-height: 250px;
-  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1rem;
+  gap: 40px;
 }
 
 .myImage {
-  height: 100%;
-  width: 100%;
+  height: auto;
+  width: max(250px, 15%);
   border-radius: 15px 50px ;
 }
 
 .myDescription {
   color: #fff;
-  width: 80%;
-  max-width: 500px;
-  margin: 10% auto;
+  width:max(40%, 300px);
   text-align: justify;
 }
 
 .phrase {
   width: 80%;
-  margin: 0 auto;
+  margin: 40px auto 20px auto;
   color: #fff;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
+
 
 .buttonPhrase {
   width: 80%;
