@@ -1,7 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Suwannaphum:wght@700&display=swap');
 
+:root {
+  --background-color-1: #20eb20;
+  --background-color-2: #423123;
+  --font-color: #161f23;
+}
+
 h1{
   font-family: 'Suwannaphum', serif;
+  color: var(--font-color)
 }
 
 p,
@@ -23,8 +30,8 @@ body {
   overflow-x: hidden;
 }
 
-body, html {
-  background: linear-gradient(90deg, #0a51ad, #011374);
+body {
+  background: radial-gradient( var(--background-color-1), var(--background-color-2));
 }
 
 main {
@@ -33,9 +40,13 @@ main {
 }
 
 .mainTitle {
-  color: #fff;
   text-align: center;
   max-width: 90%;
   margin: 0 auto;
   padding-top: 2rem;
+  font-size: 20px;
+}
+
+.mainTitle > span {
+  font-size: 30px;
 }
