@@ -1,4 +1,5 @@
 import '../styles/globals.css'
+import fondo from '../resources/images/background4.svg'
 import { Inter } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -15,7 +16,15 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body 
+        style={{
+        backgroundImage: `url(${fondo.src})`,
+        backgroundSize: 'fit',
+        backgroundRepeat: 'repeat',
+      }}
+      >
+        {children}
+      </body>
     </html>
   )
 }

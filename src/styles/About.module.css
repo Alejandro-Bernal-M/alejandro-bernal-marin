@@ -5,7 +5,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  gap: 20%;
+  gap: 17%;
 }
 
 .photoAndDescription {
@@ -16,50 +16,64 @@
   justify-content: center;
   align-items: center;
   padding-top: 1rem;
-  gap: 40px;
+  gap: 63px;
 }
 
 .myImage {
   height: auto;
   width: max(250px, 15%);
-  border-radius: 15px 50px ;
+  border-radius: 27%;
+  box-shadow: 6px 6px 4px  2px var(--color-4);
 }
 
 .myDescription {
-  color: #fff;
+  color: var(--font-color);
   width:max(40%, 300px);
   text-align: justify;
+  font-size: 20px;
+}
+
+.myDescription > span {
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+.socialMedia {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
 }
 
 .phrase {
   width: 80%;
   margin: 40px auto 20px auto;
   color: #fff;
-  text-align: center;
   display: flex;
+  align-items: center;
   flex-direction: column;
-  gap: 20px;
+  gap: 30px;
+}
+
+.phrase > p {
+  font-size: 18px;
+  text-align: center;
+  max-width: 90%;
+  
 }
 
 
 .buttonPhrase {
   width: 80%;
-  max-width: 220px;
-  height: 30px;
+  max-width: 305px;
+  height: 39px;
   margin: 10px auto 20px auto;
   text-align: center;
-  border-radius: 6px;
-  border: none;
-  box-shadow: 2px 2px black;
   font-size: 16px;
-  cursor: pointer;
-}
-
-.buttonPhrase:active {
-  box-shadow: 1px 1px black;
-  transform: translate(1px, 1px);
-}
-
-.buttonPhrase:hover {
-  background-color: #ccc;
 }

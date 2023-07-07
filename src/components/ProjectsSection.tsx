@@ -9,7 +9,7 @@ function ProjectsSection() {
             <div className={styles.projectGrid}>
                 {arrayOfProjects.map((project) => (
                     <ProjectCard
-                        key={project.id}
+                        key={project.name}
                         projectName={project.name}
                         projectDescription={project.description}
                         projectTechStack={project.tools}

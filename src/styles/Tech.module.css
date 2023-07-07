@@ -11,8 +11,7 @@
 }
 
 .mainTitle {
-  font-size: 1.5rem;
-  color: #fff;
+  color: var(--font-color);
 }
 
 .cardContainer {
@@ -27,7 +26,8 @@
 }
 
 .card {
-  background-color: #fff;
+  background-color: var(--color-5);
+  border: 2px solid var(--font-color);
   flex: 1 300px;
   max-width: 300px;
   min-height: 300px;
@@ -42,6 +42,7 @@
 
 .cardTitle {
   margin-top: 10px;
+  color: var(--font-color);
 }
 
 .stackContainer {
@@ -56,8 +57,8 @@
 }
 
 .stackContent {
-  background-color: #313131;
-  color: #fff;
+  background-color: var(--background-color-1);
+  color: var(--font-color);
   padding: 5px 10px;
   border-radius: 5px;
 }
@@ -70,24 +71,10 @@
   text-align: center;
   border-radius: 6px;
   border: none;
-  box-shadow: 2px 2px black;
-  background-color: #fff;
-}
-
-.btnResume:active {
-  box-shadow: 1px 1px black;
-  transform: translate(1px, 1px);
 }
 
 .btnResume > button {
   font-size: 16px;
-  cursor: pointer;
   width: 100%;
-  border: none;
   height: 100%;
-  border-radius: 6px;
-}
-
-.btnResume > button:hover {
-  background-color: #ccc;
 }

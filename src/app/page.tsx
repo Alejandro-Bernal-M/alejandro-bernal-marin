@@ -23,7 +23,7 @@ export default function Home() {
 
   return (
     <main>
-      <h1 className='mainTitle'>Welcome to my portfolio</h1>
+      <h1 className='mainTitle'>Hello! I&apos;m <span>Alejandro Bernal Marín</span></h1>
       <About phraseData={phraseData} counter={counter} setCounter={setCounter}/>
       <hr />
       <Tech />
