@@ -5,7 +5,7 @@
   --background-color-2: #005478;
   --color-3: #91b8c1;
   --color-4: #2A2E34;
-  --font-color: #c7d8d9;
+  --font-color: #cfe8e9;
   --color-5: #496d9c;
 }
 
@@ -32,8 +32,10 @@ a {
 
 button {
   background-color: var(--background-color-2);
-  box-shadow: 2px 2px var(--font-color);
+  box-shadow: 3px 3px 1px var(--font-color);
   cursor: pointer;
+  border: 2px solid var(--background-color-1);
+  border-radius: 6px;
 }
 
 button:active {
@@ -41,9 +43,9 @@ button:active {
   transform: translate(1px, 1px);
 }
 
-/* button:hover {
+button:hover {
   background-color: var(--color-4);
-} */
+}
 
 *{
   padding: 0;
@@ -55,10 +57,6 @@ html,
 body {
   width: 100%;
   overflow-x: hidden;
-}
-
-body {
-  background: linear-gradient( var(--background-color-1) 5%, var(--background-color-2));
 }
 
 main {
