@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import myPicture from '../resources/images/me2.jpg'
 import styles from '../styles/About.module.css'
+import {IoLogoLinkedin, IoLogoGithub} from 'react-icons/io5'
 
 type aboutProps = {
   phraseData:
@@ -22,10 +23,20 @@ function About({phraseData, counter, setCounter}: aboutProps) {
           src={myPicture}
           />
         <p className={styles.myDescription}>
-          I&apos;m a <span>full-stack</span> web developer.
-          I have a degree on sciences of sports and recreation
-           and enjoy creating web pages and web applications.
+           I&apos;m a <span>full-stack</span> web developer.
+          I have a degree in the Sciences of sports and recreation,
+          but I&apos;ve always been interested in technology and programming.
+          I am passionate about learning new things and that is why I have developed the ability to solve problems promptly.
+          I love to be in nature, be in high places, and play video games. I enjoy creating web pages and web applications.
         </p>
+      </div>
+      <div className={styles.socialMedia}>
+        <a href='https://www.linkedin.com/in/alejandro-bernal-marin/' target='_blank' rel='noreferrer'>
+          <IoLogoLinkedin className={styles.icon}/>
+        </a>
+        <a href='https://github.com/Alejandro-Bernal-M' target='_blank' rel='noreferrer'>
+          <IoLogoGithub className={styles.icon}/>
+        </a>
       </div>
         <div className={styles.phrase}>
           <p>
