@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import myPicture from '../resources/images/me.jpg'
+import myPicture from '../resources/images/me2.jpg'
 import styles from '../styles/About.module.css'
 
 type aboutProps = {
@@ -22,9 +22,7 @@ function About({phraseData, counter, setCounter}: aboutProps) {
           src={myPicture}
           />
         <p className={styles.myDescription}>
-          My name is
-          <span> Alejandro Bernal Marín </span>
-          I&apos;m a full-stack web developer.
+          I&apos;m a <span>full-stack</span> web developer.
           I have a degree on sciences of sports and recreation
            and enjoy creating web pages and web applications.
         </p>

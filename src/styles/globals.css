@@ -1,14 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Suwannaphum:wght@700&display=swap');
 
 :root {
-  --background-color-1: #20eb20;
-  --background-color-2: #423123;
-  --font-color: #161f23;
+  --background-color-1: #003878;
+  --background-color-2: #005478;
+  --color-3: #91b8c1;
+  --color-4: #2A2E34;
+  --font-color: #c7d8d9;
+  --color-5: #496d9c;
 }
 
-h1{
+h1 {
   font-family: 'Suwannaphum', serif;
-  color: var(--font-color)
+  color: var(--font-color);
+}
+
+h2 {
+  font-size: 25px;
+}
+
+h3 {
+  font-size: 20px;
 }
 
 p,
@@ -16,22 +27,38 @@ span,
 button,
 a {
   font-family: 'Noto Sans', sans-serif;
+  color: var(--font-color);
 }
+
+button {
+  background-color: var(--background-color-2);
+  box-shadow: 2px 2px var(--font-color);
+  cursor: pointer;
+}
+
+button:active {
+  box-shadow: 1px 1px var(--font-color);
+  transform: translate(1px, 1px);
+}
+
+/* button:hover {
+  background-color: var(--color-4);
+} */
 
 *{
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 html,
 body {
-  box-sizing: border-box;
   width: 100%;
   overflow-x: hidden;
 }
 
 body {
-  background: radial-gradient( var(--background-color-1), var(--background-color-2));
+  background: linear-gradient( var(--background-color-1) 5%, var(--background-color-2));
 }
 
 main {
@@ -44,9 +71,9 @@ main {
   max-width: 90%;
   margin: 0 auto;
   padding-top: 2rem;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .mainTitle > span {
-  font-size: 30px;
+  font-size: 40px;
 }
