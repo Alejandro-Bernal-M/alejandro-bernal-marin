@@ -1,0 +1,25 @@
+.homeSection {
+  min-height: 100vh;
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro {
+  width: 80%;
+  font-size: 30px;
+}
+
+.animation {
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+}
+
+.svg {
+  width:300px;
+  height:500px;
+}

@@ -6,6 +6,7 @@
   align-items: center;
   justify-content: space-around;
   gap: 17%;
+  padding: 30px 0;
 }
 
 .photoAndDescription {
@@ -22,7 +23,7 @@
 .myImage {
   height: auto;
   width: max(250px, 15%);
-  border-radius: 27%;
+  border-radius: 50%;
   box-shadow: 6px 6px 4px  2px var(--color-4);
 }
 
@@ -31,11 +32,6 @@
   width:max(40%, 300px);
   text-align: justify;
   font-size: 20px;
-}
-
-.myDescription > span {
-  font-size: 25px;
-  text-transform: uppercase;
 }
 
 .socialMedia {
@@ -67,7 +63,6 @@
   max-width: 90%;
   
 }
-
 
 .buttonPhrase {
   width: 80%;

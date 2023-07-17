@@ -4,7 +4,7 @@ import styles from '../styles/Project.module.css'
 
 function ProjectsSection() {
     return (
-        <section className={styles.projectSection}>
+        <section className={styles.projectSection} id='projects-section'>
             <h2 className={styles.projectSectionTitle}>Some of my projects.</h2>
             <div className={styles.projectGrid}>
                 {arrayOfProjects.map((project) => (
