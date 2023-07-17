@@ -16,6 +16,7 @@ function About({phraseData, counter, setCounter}: aboutProps) {
     
   return(
     <section className={styles.aboutSection} id='about-section'>
+      <h2>About me.</h2>
       <div className={styles.photoAndDescription}>
         <Image
           className={styles.myImage}
@@ -23,7 +24,6 @@ function About({phraseData, counter, setCounter}: aboutProps) {
           src={myPicture}
           />
         <p className={styles.myDescription}>
-           I&apos;m a <span>full-stack</span> web developer.
           I have a degree in the Sciences of sports and recreation,
           but I&apos;ve always been interested in technology and programming.
           I am passionate about learning new things and that is why I have developed the ability to solve problems promptly.

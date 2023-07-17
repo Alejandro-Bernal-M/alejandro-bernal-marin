@@ -10,12 +10,12 @@
 }
 
 h1 {
-  font-family: 'Suwannaphum', serif;
   color: var(--font-color);
 }
 
 h2 {
   font-size: 25px;
+  color: var(--font-color);
 }
 
 h3 {
@@ -26,7 +26,6 @@ p,
 span,
 button,
 a {
-  font-family: 'Noto Sans', sans-serif;
   color: var(--font-color);
 }
 
@@ -48,6 +47,7 @@ button:hover {
 }
 
 *{
+  font-family: 'Suwannaphum', serif;
   scroll-behavior: smooth;
   padding: 0;
   margin: 0;
@@ -65,18 +65,6 @@ main {
   height: 100%;
 }
 
-.mainTitle {
-  text-align: center;
-  max-width: 90%;
-  margin: 0 auto;
-  padding-top: 2rem;
-  font-size: 30px;
-}
-
-.mainTitle > span {
-  font-size: 40px;
-}
-
 .hamburger-react {
   color: var(--font-color);
 }
@@ -91,4 +79,20 @@ main {
   align-items: center;
   text-align: center;
   color: var(--font-color);
+}
+
+.visualMove {
+  animation: move 2s ease-in-out infinite;
+}
+
+@keyframes move {
+  0% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(10px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
 }
