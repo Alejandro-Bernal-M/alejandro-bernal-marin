@@ -5,9 +5,13 @@ import Image from 'next/image'
 import styles from '../styles/Navbar.module.css'
 import { useWindowDimentions } from '../../utils/useWindowDimentionsHook'
 import { Divide as Hamburger } from 'hamburger-react'
+import { useState } from 'react'
+import Popup from './Popup'
 
 const Navbar = () => {
   const { width } = useWindowDimentions()
+  const [isOpen, setOpen] = useState(false)
+
   return (
     <header className={styles.header}>
       <nav className={styles.navbar}>
@@ -29,10 +33,21 @@ const Navbar = () => {
           </ul>
         )}
         {width <= 768 && (
-          <Hamburger 
+          <Hamburger
+            toggled={isOpen}
+            toggle={setOpen}
+            onToggle={(toggled) => {
+              let popup = document.querySelector('#popup');
+              if (toggled) {
+                popup?.classList.add(styles.popupActive)
+              } else {
+                popup?.classList.remove(styles.popupActive)
+              }
+            }}
           />
-        )}
+          )}
       </nav>
+      {width <= 768 && <Popup />}
     </header>
   )
 }
