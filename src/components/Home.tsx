@@ -36,9 +36,7 @@ const Home = () => {
         <h1 className='mainTitle'>Alejandro Bernal Marín</h1>
         <span>Full-stack web developer. </ span>
       </div>
-      <div className={styles.animation} id = 'animation'>
-        
-      </div>
+      <div className={styles.animation} id = 'animation' />
     </ section>
   )
 }
