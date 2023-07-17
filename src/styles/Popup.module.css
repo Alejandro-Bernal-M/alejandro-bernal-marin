@@ -1,6 +1,6 @@
 .popup {
   position: fixed;
-  margin-top: 60px;
+  top: 60px;
   right: 0;
   width: 25%;
   height: 60%;

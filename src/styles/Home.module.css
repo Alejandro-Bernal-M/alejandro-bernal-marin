@@ -7,8 +7,9 @@
 }
 
 .intro {
-  width: 80%;
+  width: 90%;
   font-size: 30px;
+  z-index: 1;
 }
 
 .animation {
@@ -16,5 +17,4 @@
   width: 100%;
   z-index: -1;
   position: absolute;
-  top: 60px;
 }
