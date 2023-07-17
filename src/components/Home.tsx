@@ -1,6 +1,8 @@
 import styles from '../styles/Home.module.css'
 import { useEffect, useState } from "react";
+// @ts-ignore
 import * as THREE from 'three'
+// @ts-ignore
 import WAVES from 'vanta/dist/vanta.waves.min'
 
 const Home = () => {
