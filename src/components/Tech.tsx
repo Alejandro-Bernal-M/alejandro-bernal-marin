@@ -9,7 +9,9 @@ function Tech() {
       'Frameworks': ['React','Next js', 'Ruby on Rails'],
       'Languages': ['TypeScript', 'JavaScript', 'Ruby'],
       'Databases': ['PostgreSQL'],
-      'Tools': ['Git', 'GitHub', 'VS code', 'Postman', 'Figma', 'Vercel','Jest', 'React Testing Library', 'Rspec', 'Capybara']
+      'Developer tools': ['Git', 'GitHub', 'Postman', 'Postman'],
+      'React tools': ['Redux', 'React Router', 'Bootstrap', 'Jest'],
+      'Ruby tools': ['Rubocop', 'Rspec', 'Capybara']
     }
     return (
       <section className={styles.techSection} id='tech-section'>
