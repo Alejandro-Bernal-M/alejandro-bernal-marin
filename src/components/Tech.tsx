@@ -12,7 +12,7 @@ function Tech() {
       'Tools': ['Git', 'GitHub', 'VS code', 'Postman', 'Figma', 'Vercel','Jest', 'React Testing Library', 'Rspec', 'Capybara']
     }
     return (
-      <section className={styles.techSection} id='tech-section'>
+      <section className={styles.techSection}>
       <h2 className={styles.mainTitle}>Tech Stack.</h2>
       <div className={styles.cardContainer}>
         {Object.keys(techObject).map((tech) => {
