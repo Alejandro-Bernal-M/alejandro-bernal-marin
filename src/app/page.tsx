@@ -1,6 +1,7 @@
 'use client';
 
-import About from "@/components/about"
+import House from "@/components/Home";
+import About from "@/components/About"
 import Tech from "@/components/Tech";
 import ProjectsSection from "@/components/ProjectsSection";
 import Contact from "@/components/Contact";
@@ -21,9 +22,25 @@ export default function Home() {
   }
   ,[counter])
 
+  useEffect(() => {
+    const threeScript = document.createElement("script");
+    threeScript.setAttribute("id", "threeScript");
+    threeScript.setAttribute(
+      "src",
+      "https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"
+    );
+    document.getElementsByTagName("head")[0].appendChild(threeScript);
+    return () => {
+      if (threeScript) {
+        threeScript.remove();
+      }
+    };
+  }, []);
+
   return (
     <main>
-      <h1 className='mainTitle'>Hello! I&apos;m <span>Alejandro Bernal Marín</span></h1>
+      <House />
+      <hr />
       <About phraseData={phraseData} counter={counter} setCounter={setCounter}/>
       <hr />
       <Tech />
