@@ -22,7 +22,7 @@
 .myImage {
   height: auto;
   width: max(250px, 15%);
-  border-radius: 27%;
+  border-radius: 50%;
   box-shadow: 6px 6px 4px  2px var(--color-4);
 }
 

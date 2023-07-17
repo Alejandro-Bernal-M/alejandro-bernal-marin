@@ -1,5 +1,6 @@
 import '../styles/globals.css'
 import fondo from '../resources/images/background4.svg'
+import Navbar from '@/components/Navbar'
 import { Inter } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -23,6 +24,7 @@ export default function RootLayout({
         backgroundRepeat: 'repeat',
       }}
       >
+        <Navbar />
         {children}
       </body>
     </html>

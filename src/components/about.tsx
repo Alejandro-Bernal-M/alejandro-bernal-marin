@@ -15,7 +15,7 @@ type aboutProps = {
 function About({phraseData, counter, setCounter}: aboutProps) {
     
   return(
-    <section className={styles.aboutSection}>
+    <section className={styles.aboutSection} id='about-section'>
       <div className={styles.photoAndDescription}>
         <Image
           className={styles.myImage}

@@ -5,7 +5,7 @@
   --background-color-2: #005478;
   --color-3: #91b8c1;
   --color-4: #2A2E34;
-  --font-color: #e3f3f3;
+  --font-color: #c8e6e6;
   --color-5: #3a5b85;
 }
 
@@ -74,4 +74,8 @@ main {
 
 .mainTitle > span {
   font-size: 40px;
+}
+
+.hamburger-react {
+  color: var(--font-color);
 }
