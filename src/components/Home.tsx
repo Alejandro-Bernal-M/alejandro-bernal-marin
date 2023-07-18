@@ -15,7 +15,7 @@ const Home = () => {
         el: '#animation',
         mouseControls: true,
         touchControls: true,
-        minHeight: 200.00,
+        minHeight: 100.00,
         minWidth: 200.00,
         scale: 1.00,
         scaleMobile: 1.00,
