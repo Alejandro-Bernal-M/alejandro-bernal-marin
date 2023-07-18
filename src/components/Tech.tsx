@@ -9,7 +9,7 @@ function Tech() {
       'Frameworks': ['React','Next js', 'Ruby on Rails'],
       'Languages': ['TypeScript', 'JavaScript', 'Ruby'],
       'Databases': ['PostgreSQL'],
-      'Developer tools': ['Git', 'GitHub', 'Postman', 'Postman'],
+      'Developer tools': ['Git', 'GitHub', 'Postman'],
       'React tools': ['Redux', 'React Router', 'Bootstrap', 'Jest'],
       'Ruby tools': ['Rubocop', 'Rspec', 'Capybara']
     }
