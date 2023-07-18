@@ -40,7 +40,6 @@ export default function Home() {
   return (
     <main>
       <House />
-      <hr />
       <About phraseData={phraseData} counter={counter} setCounter={setCounter}/>
       <hr />
       <Tech />

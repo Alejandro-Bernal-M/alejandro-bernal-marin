@@ -30,6 +30,11 @@ a {
   color: var(--font-color);
 }
 
+hr {
+  background-color: var(--font-color);
+  height: 2px;
+}
+
 button {
   background-color: var(--color-4);
   box-shadow: 3px 3px 1px var(--font-color);
