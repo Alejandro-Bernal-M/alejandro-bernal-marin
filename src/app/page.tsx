@@ -1,5 +1,6 @@
 'use client';
 
+import Navbar from '@/components/Navbar'
 import House from "@/components/Home";
 import About from "@/components/About"
 import Tech from "@/components/Tech";
@@ -39,6 +40,7 @@ export default function Home() {
 
   return (
     <main>
+      <Navbar />
       <House />
       <About phraseData={phraseData} counter={counter} setCounter={setCounter}/>
       <hr />
