@@ -5,6 +5,7 @@
   align-items: center;
   justify-content: center;
   padding-top: 60px;
+  border-bottom: 2px solid var(--font-color);
 }
 
 .intro {
@@ -18,5 +19,4 @@
   z-index: -1;
   position: absolute;
   top: 0;
-  border-bottom: 2px solid var(--font-color);
 }
