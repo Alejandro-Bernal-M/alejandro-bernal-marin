@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Suwannaphum:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
 
 :root {
   --background-color-1: #003878;
@@ -7,6 +7,7 @@
   --color-4: #2A2E34;
   --font-color: #c8e6e6;
   --color-5: #3a5b85;
+  --font: 'Inter', sans;
 }
 
 h1 {
@@ -54,7 +55,7 @@ button:hover {
 }
 
 *{
-  font-family: 'Suwannaphum', serif;
+  font-family: var(--font);
   scroll-behavior: smooth;
   padding: 0;
   margin: 0;
