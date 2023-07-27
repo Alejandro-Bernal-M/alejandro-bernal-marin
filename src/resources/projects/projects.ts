@@ -2,10 +2,19 @@ import spaceImage from './project_images/spacex.jpg';
 import portfolioKen from './project_images/ken.jpg';
 import myCurrency from './project_images/myCurrency.jpg';
 import mathImage from './project_images/math.jpg';
-import todoImage from './project_images/to-do-list-mobile.jpg';
+// import todoImage from './project_images/to-do-list-mobile.jpg';
 import myExpenses from './project_images/my-expenses.jpg';
+import roadTrip from './project_images/roadtripWheels.png'
 
 const arrayOfProjects = [
+    {
+        name: "RoadTrip Wheels",
+        description: "The Roadtrip Wheels is a web application, there, you can register, add and delete cars, make a reservation on a car, and check your reservations.",
+        tools: ['Rails', 'PostgreSQL', 'Next JS'],
+        image: roadTrip,
+        gitLink: 'https://github.com/shayan1234554321/RoadTrip-Wheels',
+        liveLink: 'https://roadtrip-wheels.onrender.com/',
+    },
     {
         name: "My expenses",
         description: "My expenses is a web application where you can create an user and track your expenses divided by category.",
@@ -45,14 +54,14 @@ const arrayOfProjects = [
         image: mathImage,
         gitLink: 'https://github.com/Alejandro-Bernal-M/Math.Magicians',
         liveLink: 'https://math-magicians-havp.onrender.com/',
-    },
-    {
-        name: "To Do's list",
-        description: "To Do's list is a web page where you can add tasks that you need to do, edit the task, check the task when is done, clear all the tasks that are completed and drag the task to change the order. ",
-        tools: ['HTML5', 'CSS', 'JavaScript'],
-        image: todoImage,
-        gitLink: 'https://github.com/Alejandro-Bernal-M/To-do-list',
-        liveLink: 'https://alejandro-bernal-m.github.io/To-do-list/',
     }
+    // {
+    //     name: "To Do's list",
+    //     description: "To Do's list is a web page where you can add tasks that you need to do, edit the task, check the task when is done, clear all the tasks that are completed and drag the task to change the order. ",
+    //     tools: ['HTML5', 'CSS', 'JavaScript'],
+    //     image: todoImage,
+    //     gitLink: 'https://github.com/Alejandro-Bernal-M/To-do-list',
+    //     liveLink: 'https://alejandro-bernal-m.github.io/To-do-list/',
+    // }
   ];  
   export default arrayOfProjects;
