@@ -14,8 +14,8 @@ const Navbar = () => {
 
   return (
     <header className={styles.header}>
+      <Image src={Logo} alt='Logo' className={styles.logo}/>
       <nav className={styles.navbar}>
-        <Image src={Logo} alt='Logo' className={styles.logo}/>
         {width > 768 && (
           <ul className={styles.navbarList}>
             <li className={styles.navbarItem}>
