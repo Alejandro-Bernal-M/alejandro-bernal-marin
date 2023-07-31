@@ -25,7 +25,7 @@ function About({phraseData, counter, setCounter}: aboutProps) {
           />
         <p className={styles.myDescription}>
           I have a degree in the Sciences of sports and recreation,
-          but I&apos;ve always been interested in technology and programming.
+          and I&apos;ve always been interested in technology and programming.
           I am passionate about learning new things and that is why I have developed the ability to solve problems promptly.
           I love to be in nature, be in high places, and play video games. I enjoy creating web pages and web applications.
         </p>
