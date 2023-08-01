@@ -10,13 +10,13 @@
   left: 0;
   background-color: var(--background-color-1);
   padding: 7px 15px;
-  border: 1px solid var(--font-color);
+  border-bottom: 1px solid var(--font-color);
 }
 .navbar {
   width: 100%;
   height: 70px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
 }
 
@@ -28,8 +28,9 @@
 .navbarList {
   display: flex;
   width: 50%;
-  justify-content: space-around;
-  gap: 20px;
+  justify-content: flex-end;
+  gap: 30px;
+  padding-right: 20px;
   align-items: center;
 }
 
@@ -62,14 +63,4 @@
 .popupActive {
   opacity: 1;
   z-index: 1;
-}
-
-@media (width <= 768px) {
-  .navbarList {
-    width: 100%;
-  }
-
-  .navbar {
-    justify-content: flex-end;
-  }
 }
