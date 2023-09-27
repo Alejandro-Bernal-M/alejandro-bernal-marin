@@ -21,7 +21,7 @@ const arrayOfProjects = [
         tools: ['Ruby', 'Rails', 'PostgreSQL', 'CSS'],
         image: myExpenses,
         gitLink: 'https://github.com/Alejandro-Bernal-M/my-expenses',
-        liveLink: 'https://my-expenses-wyv4.onrender.com/',
+        liveLink: 'https://drive.google.com/file/d/14Fuql5Ik1BFm0BVYabqlMuGIk1dwac3n/view?usp=sharing',
     },
     {
         name: "Space X travelers",
