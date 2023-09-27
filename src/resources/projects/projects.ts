@@ -13,7 +13,7 @@ const arrayOfProjects = [
         tools: ['Rails', 'PostgreSQL', 'Next JS'],
         image: roadTrip,
         gitLink: 'https://github.com/shayan1234554321/RoadTrip-Wheels',
-        liveLink: 'https://roadtrip-wheels.onrender.com/',
+        liveLink: 'https://drive.google.com/file/d/1LSAFNPE0Op-rVWycgWf0R3GH_S783bba/view?usp=sharing',
     },
     {
         name: "My expenses",
@@ -21,7 +21,7 @@ const arrayOfProjects = [
         tools: ['Ruby', 'Rails', 'PostgreSQL', 'CSS'],
         image: myExpenses,
         gitLink: 'https://github.com/Alejandro-Bernal-M/my-expenses',
-        liveLink: 'https://my-expenses-wyv4.onrender.com/',
+        liveLink: 'https://drive.google.com/file/d/14Fuql5Ik1BFm0BVYabqlMuGIk1dwac3n/view?usp=sharing',
     },
     {
         name: "Space X travelers",
