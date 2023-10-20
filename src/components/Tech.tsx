@@ -8,10 +8,11 @@ function Tech() {
   } = {
       'Frameworks': ['React','Next js', 'Ruby on Rails'],
       'Languages': ['TypeScript', 'JavaScript', 'Ruby'],
-      'Databases': ['PostgreSQL'],
-      'Developer tools': ['Git', 'GitHub', 'Postman'],
+      'Databases': ['PostgreSQL', 'MongoDB'],
+      'Developer tools': ['Git', 'GitHub', 'Postman','Vercel', 'VsCode'],
       'React tools': ['Redux', 'React Router', 'Bootstrap', 'Jest'],
-      'Ruby tools': ['Rubocop', 'Rspec', 'Capybara']
+      'Node': ['Express', 'Mongoose','Bcrypt'],
+      'Ruby tools': ['Rubocop', 'Rspec', 'Capybara','Devise']
     }
     return (
       <section className={styles.techSection} id='tech-section'>
