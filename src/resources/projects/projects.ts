@@ -5,8 +5,35 @@ import mathImage from './project_images/math.jpg';
 // import todoImage from './project_images/to-do-list-mobile.jpg';
 import myExpenses from './project_images/my-expenses.jpg';
 import roadTrip from './project_images/roadtripWheels.png'
+import ecoBalance from './project_images/EcoBalance.png'
+import Directorio from './project_images/Directorio.png'
+import TaskManager from './project_images/TaskManager.png'
 
 const arrayOfProjects = [
+    {
+        name: "EcoBalance",
+        description: "EcoBalance is a web application made with Next.js, using NextAuth for user authentication and MongoDB as a database, this app allows you to register your home services invoices and keep track of your consumption establishing alerts.",
+        tools: ['MongoDB', 'NextAuth.js', 'Next JS', "Redux"],
+        image: ecoBalance,
+        gitLink: 'https://github.com/Alejandro-Bernal-M/ecobalance',
+        liveLink: 'https://drive.google.com/file/d/15OIjvHC2GuCgw9ZIZVTT6Z4hLj3M0I1H/view?usp=share_link',
+    },
+    {
+        name: "Group Directory",
+        description: "Group Directory is a web application where you can register as a regular user or group director, as a regular user you can create your profile including a profile photo, fill in your information, and send the request to a group, as group director you can choose a plan, pay for it using PayPal, create your customized groups, choosing a banner and color, check for requests and manage members. The regular users and group directors can check the group directory to look at all the people that are in the group, check the profession, job place, job, and responsibilities, and filter by these qualities.",
+        tools: ['Rails', 'PostgreSQL', 'Devise', 'Cloudinary'],
+        image: Directorio,
+        gitLink: 'https://github.com/Alejandro-Bernal-M/Directorio',
+        liveLink: 'https://drive.google.com/file/d/1moHxmG0dzAgSGwNvyKk6KbO4AiFITFE5/view',
+    },
+    {
+        name: "Task Manager",
+        description: "Task-manager Task-manager is a web application where you can create an user, create groups, subgroups, invite other users to your subgroups, create task for your subgroups and assign the task to other user",
+        tools: ['Rails', 'PostgreSQL', 'Next JS', 'JWT'],
+        image: TaskManager,
+        gitLink: 'https://github.com/Alejandro-Bernal-M/task-manager-front',
+        liveLink: 'https://drive.google.com/file/d/19J0cQQHUXHIvXAquVEFM32f6kA-URRFd/view?usp=share_link',
+    },
     {
         name: "RoadTrip Wheels",
         description: "The Roadtrip Wheels is a web application, there, you can register, add and delete cars, make a reservation on a car, and check your reservations.",
@@ -47,14 +74,14 @@ const arrayOfProjects = [
         gitLink: 'https://github.com/Alejandro-Bernal-M/my-currency',
         liveLink: 'https://my-currency.onrender.com/',
     },
-    {
-        name: "Math magicians",
-        description: "A wep app, build as SPA with react router where you can use the calculator and see quotes from an API, made with React.",
-        tools: ['React', 'SPA', 'CSS'],
-        image: mathImage,
-        gitLink: 'https://github.com/Alejandro-Bernal-M/Math.Magicians',
-        liveLink: 'https://math-magicians-havp.onrender.com/',
-    }
+    // {
+    //     name: "Math magicians",
+    //     description: "A wep app, build as SPA with react router where you can use the calculator and see quotes from an API, made with React.",
+    //     tools: ['React', 'SPA', 'CSS'],
+    //     image: mathImage,
+    //     gitLink: 'https://github.com/Alejandro-Bernal-M/Math.Magicians',
+    //     liveLink: 'https://math-magicians-havp.onrender.com/',
+    // }
     // {
     //     name: "To Do's list",
     //     description: "To Do's list is a web page where you can add tasks that you need to do, edit the task, check the task when is done, clear all the tasks that are completed and drag the task to change the order. ",
