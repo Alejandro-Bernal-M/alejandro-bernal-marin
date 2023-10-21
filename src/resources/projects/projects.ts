@@ -12,7 +12,7 @@ import TaskManager from './project_images/TaskManager.png'
 const arrayOfProjects = [
     {
         name: "EcoBalance",
-        description: "EcoBalance is a web application made with Next.js, using NextAuth for user authentication and MongoDB as a database, this app allows you to register your home services invoices and keep track of your consumption establishing alerts.",
+        description: "EcoBalance is a web application made with Next.js, using NextAuth for user authentication and MongoDB as a database, this app allows you to register your home services invoices and keep track of your consumption by establishing alerts.",
         tools: ['MongoDB', 'NextAuth.js', 'Next JS', "Redux"],
         image: ecoBalance,
         gitLink: 'https://github.com/Alejandro-Bernal-M/ecobalance',
@@ -28,7 +28,7 @@ const arrayOfProjects = [
     },
     {
         name: "Task Manager",
-        description: "Task-manager Task-manager is a web application where you can create an user, create groups, subgroups, invite other users to your subgroups, create task for your subgroups and assign the task to other user",
+        description: "Task-manager Task-manager is a web application where you can create a user, create groups, and subgroups, invite other users to your subgroups, create tasks for your subgroups, and assign the task to other users.",
         tools: ['Rails', 'PostgreSQL', 'Next JS', 'JWT'],
         image: TaskManager,
         gitLink: 'https://github.com/Alejandro-Bernal-M/task-manager-front',
