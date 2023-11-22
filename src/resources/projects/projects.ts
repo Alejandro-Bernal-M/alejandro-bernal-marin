@@ -8,8 +8,17 @@ import roadTrip from './project_images/roadtripWheels.png'
 import ecoBalance from './project_images/EcoBalance.png'
 import Directorio from './project_images/Directorio.png'
 import TaskManager from './project_images/TaskManager.png'
+import getKnowledge from './project_images/getKnowledge.png'
 
 const arrayOfProjects = [
+    {
+        name: "Get Knowledge",
+        description: "Get Knowledge is a web application where you can check for courses, create a profile, enroll in courses and check your progress, using JWT to connect the express API with the Next.js Front-end.",
+        tools: ['MongoDB', 'Express.js', 'Next JS', "Redux", "Node", "TypeScript", "JWT"],
+        image: getKnowledge,
+        gitLink: 'https://github.com/Alejandro-Bernal-M/courses-front',
+        liveLink: 'https://drive.google.com/file/d/1t6VLhVgv7Z3pBFl7OHJKCMX1n6x6qv_Z/view?usp=drive_link',
+    },
     {
         name: "EcoBalance",
         description: "EcoBalance is a web application made with Next.js, using NextAuth for user authentication and MongoDB as a database, this app allows you to register your home services invoices and keep track of your consumption by establishing alerts.",
@@ -21,7 +30,7 @@ const arrayOfProjects = [
     {
         name: "Group Directory",
         description: "Group Directory is a web application where you can register as a regular user or group director, as a regular user you can create your profile including a profile photo, fill in your information, and send the request to a group, as group director you can choose a plan, pay for it using PayPal, create your customized groups, choosing a banner and color, check for requests and manage members. The regular users and group directors can check the group directory to look at all the people that are in the group, check the profession, job place, job, and responsibilities, and filter by these qualities.",
-        tools: ['Rails', 'PostgreSQL', 'Devise', 'Cloudinary'],
+        tools: ['Ruby on Rails', 'PostgreSQL', 'Devise', 'Cloudinary'],
         image: Directorio,
         gitLink: 'https://github.com/Alejandro-Bernal-M/Directorio',
         liveLink: 'https://drive.google.com/file/d/1moHxmG0dzAgSGwNvyKk6KbO4AiFITFE5/view',
