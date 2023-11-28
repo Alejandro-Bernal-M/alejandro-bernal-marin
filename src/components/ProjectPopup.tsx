@@ -1,7 +1,9 @@
 import Image, { StaticImageData }  from "next/image"
 import { FiGithub } from 'react-icons/fi'
 import { BsRocket } from 'react-icons/bs'
+import { GrPrevious, GrNext } from "react-icons/gr";
 import styles from '../styles/ProjectPopup.module.css'
+
 
 type ProjectPopupProps = {
   projectName: string,
@@ -20,7 +22,13 @@ const ProjectPopup = ({projectName, projectDescription, projectTechStack, projec
       <div className={styles.innerPopup}>
         <button className={styles.closeBtn} onClick={() => {setShowPopup(!showPopup)}}>X</button>
         <h2 className={styles.name}>{projectName}</h2> 
-        <Image src={projectImage} alt={projectName} className={styles.image}/>
+
+        <div className={styles.imgContainer}>
+          <button className={styles.prevBtn}><GrPrevious className={styles.btnIcon} /></button>
+          <Image src={projectImage} alt={projectName} className={styles.image}/>
+          <button className={styles.nextBtn} ><GrNext className={styles.btnIcon} /></button>
+        </div>
+
         <div className={styles.cardInfo}>
           <p className={styles.projectDescription}>{projectDescription}</p>
           <div className={styles.techStack}>
